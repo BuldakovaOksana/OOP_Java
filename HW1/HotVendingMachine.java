@@ -24,8 +24,6 @@ public class HotVendingMachine implements VendingMachine {
 
                     if (drink.getTemperature().equals(temperature)) {
                         System.out.println("Возьмите ваш напиток " + drink);
-                    } else {
-                        System.out.println("Неправильно введенны параметры!");
                     }
 
                 }
